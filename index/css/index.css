@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.watch{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.conteiner{ 
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+
+
+}
+a{
+text-decoration: none;
+color: black;
+}
+ul, ol{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 110%;
+}
+.icons{
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    cursor: pointer;
+    
+}
+
+a:hover{
+color: brown;
+}
+.icons:hover{
+    color: brown;
+}
+.watchBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F2;
+}
+button{
+    width: 20%;
+    border-radius: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A4A4B;
+    color: azure;
+    cursor: pointer;
+}
+.text{
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+   .containerWatch{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans';
+   }
+   .containerBox{
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+   }
+   .cards{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    font-family: 'Josefin Sans';
+    text-align: center;
+   }
+   .containerBoxing{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+   }
+   
+   
+   .file{
+    width: 40%;
+    font-size:30px;
+    display: flex;
+    height: 70px;
+    font-family: 'Josefin Sans';
+   }
+   .conteinerImg{
+    gap: 135px;
+    display: flex;
+    width: 100%;
+   }
+   .firstImgBox{
+    width: 45%;
+   }
+   .secondImgBox{
+    display: flex;
+    justify-content: end;
+    width: 45%;
+   }
+   .thirdImgBox{
+    width: 45%;
+   }
+   .fourthImgBox{
+    width: 450%;
+    gap: 300px;
+   }
+   .containerText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+   }
+   .textBox{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 50px;
+    font-size: 25px;
+   }
+   .cardsBox{
+    width: 100%;
+ flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+   }
+   .cardsBox div{
+    width: 30%;
+   }
+   .containerText button{
+    width: 140%;
+    margin-top: 70px;
+   }
